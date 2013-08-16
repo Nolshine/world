@@ -1,0 +1,38 @@
+sidescrolly 2D
+
+
+
+light particles fall from the top, plants pick'em up
+and beneath are bugs that eat small plants
+maybe the bugs should be able to detract from the size of bigger
+plants.
+
+plants should be made from trunk and leaves, and if no leaves = trunk dead.
+
+Maybe bigger bugs should eat smaller bugs.
+
+What the light particles give is energy.
+Energy is used to grow everything else.
+
+When living things have enough energy they should breed.
+All living things should have a short lifespan.
+
+
+
+
+
+So, my brain tells me that the first life form I write should be grass.
+i had a few ideas.
+
+
+One of them is that grass is made from two types of components,
+the base, and solar pods of some sort. Now, I gotta think ahead
+because bugs are supposed to be able to munch on small plants like this
+alien grass thing. Simplest way to do this is when a small bug approaches
+the base, it eats 'til it's full, and detracts however much energy it eats
+from the plants own stocks. But I could also do something like:
+    bug finds plant, climbs up to a pod, and eats the pod.
+I also think the pods should eventually drop and become seeds.
+Perhaps they should do that when the plant dies, if the plant has enough energy.
+
+
