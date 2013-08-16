@@ -90,7 +90,7 @@ def start():
                             pos_x = plant.base.x
                             for y in plant.pods:
                                 plant.energy -= plant.breed_req
-                                if plant.energy <= 0:
+                                if plant.energy < 0:
                                     plant.dead = True
                                     break
                                 pos_y = plant.base.y-y

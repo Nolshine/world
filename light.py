@@ -12,7 +12,7 @@ class Light:
         self.pos = vec2d(random()*700, (-5.0))
         self.dir = vec2d(0.0, 1.0)
         self.dir = self.dir.rotated(sin(seed))
-        self.energy = randrange(10,101)
+        self.energy = 10
         self.dead = False
 
     def update(self, time):

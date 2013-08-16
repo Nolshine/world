@@ -42,7 +42,7 @@ class Grass:
         if genes == {}:
             self.genes = {
                 "height":random()*20.0,
-                "pods":randrange(1,3),
+                "pods":randrange(2,4),
                 "max_age":120000 #lives for a minute
                 }
         else:
@@ -55,6 +55,8 @@ class Grass:
                     amt = randrange(1,3)*(-1)
                 genes["height"] += amt
                 genes["pods"] += amt
+                if genes["pods"] == 0:
+                    self.dead = True
                 genes["max_age"] += amt*30
             self.genes = genes
         self.pods = []
@@ -68,5 +70,6 @@ class Grass:
             self.dead = True
         if self.energy <= 0:
             self.dead = True
-        if timer >= 30000:
+        if self.timer >= 15000:
+            self.timer = 0
             self.breed = True
